@@ -1,0 +1,28 @@
+.taskCount {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+    font-size: 0.875rem;
+}
+
+.taskCount div {
+    display: flex;
+    align-items: center;
+}
+
+.taskCount .countCreated {
+    color: var(--blue);
+}
+
+.taskCount .countCompleted {
+    color: var(--purple);
+}
+
+.taskCount .count {
+    color: var(--gray-200);
+    background-color: var(--gray-400);
+    border-radius: 10px;
+    padding: 0.125rem 0.5rem;
+    margin-left: 0.5rem;
+    font-size: 0.75rem;
+}
